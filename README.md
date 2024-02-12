@@ -6,3 +6,18 @@ git init
 
 
 git pull origin main
+git checkout -b dev
+git checkout -b test
+git checkout -b master
+
+git checkout -b sheharyar
+git add .
+git commit -m "added python code"
+
+
+git checkout dev
+git merge sheharyar
+
+git push origin --all
+
+
